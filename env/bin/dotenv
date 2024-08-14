@@ -1,4 +1,4 @@
-#!/Users/han_zhou/Desktop/Projects/web-crawler/env/bin/python3.12
+#!/Users/han_zhou/Desktop/Projects/hacker_newsletter/env/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

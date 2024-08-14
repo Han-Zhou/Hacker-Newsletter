@@ -15,14 +15,8 @@ receiver_email = os.getenv("MY_RECEIVING_EMAIL")
 
 # Email content
 subject = "HTML Email without Attachment"
-html = """\
-<html>
-  <body>
-    <p>Hi,<br>
-    This is a <b>test</b> email without an attachment sent using <a href="https://www.python.org">Python</a>.</p>
-  </body>
-</html>
-"""
+with open('index.html', 'r') as file:
+    html = file.read()
 
 message = MIMEMultipart()
 message["From"] = sender_email
