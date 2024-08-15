@@ -15,7 +15,7 @@ receiver_email = os.getenv("MY_RECEIVING_EMAIL")
 
 # Email content
 subject = "HTML Email without Attachment"
-with open('index.html', 'r') as file:
+with open('main_template.html', 'r') as file:
     html = file.read()
 
 message = MIMEMultipart()
