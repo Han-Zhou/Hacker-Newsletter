@@ -1,6 +1,6 @@
 env
 __pycache__
 .env
-send_email
-llama
-start
+send_email.py
+llama.py
+start.sh
